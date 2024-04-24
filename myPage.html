@@ -1,11 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Boston Celtics</title>
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boston Celtics</title>
+    <link href="css/myStyles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <h1>Boston Celtics</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#history">History</a></li>
+            <li><a href="#players">Different Here</a></li>
+            <li><a href="#videos">Championship or Bust</a></li>
+            <li><a href="#graph">Championship History</a></li> <!-- Added anchor link -->
+        </ul>
+    </nav>
+    <main>
+        <section id="history">
+            <h2>History</h2>
+            <div class="centered-div">
+                <img class="profile-img" src="assets/Bill Russell.jpg" alt="Bill Russell" width="300"/>
+                <p>Built on pride and tradition. The best franchise in the NBA with 17 world championships.</p>
+            </div>
+            
+        </section>
+        <section id="players">
+            <h2>Different Here</h2>
+            <div class="centered-div">
+                <img class="profile-img" src="assets/JaysonTatum.JPG" alt="Jayson Tatum" width="400"/>
+                <p>Filled with the top talent in the NBA holding the #1 overall seed and the best fans in the world, you can say we are a little different here.</p>
+            </div>
+        </section>
+        <section id="videos">
+            <h2>Championship or Bust</h2>
+            <div class="centered-div">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/3dXdm8PbrhM?si=hfjKkH1g6VaL1eD6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>BANNER 18 OR NOTHING ITS PLAYOFF TIME</p>
+            </div>
+        </section>
+        <section id="graph"> <!-- Added graph section -->
+            <h2>Championship History Graph</h2>
+            <div class='tableauPlaceholder' id='viz1713944607080' style='position: relative'>
+                <noscript>
+                    <a href='#'><img alt=' ' src='https://public.tableau.com/static/images/NB/NBAWinsPlayoffResults/NBARegularSeasonPlayoffs/1_rss.png' style='border: none' /></a>
+                </noscript>
+                <object class='tableauViz'  style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                    <param name='embed_code_version' value='3' />
+                    <param name='site_root' value='' />
+                    <param name='name' value='NBAWinsPlayoffResults&#47;NBARegularSeasonPlayoffs' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image' value='https://public.tableau.com/static/images/NB/NBAWinsPlayoffResults/NBARegularSeasonPlayoffs/1.png' />
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='en-US' />
+                </object>
+            </div>
+            <script type='text/javascript'>
+                var divElement = document.getElementById('viz1713944607080');
+                var vizElement = divElement.getElementsByTagName('object')[0];
+                vizElement.style.width='1100px';
+                vizElement.style.height='827px';
+                var scriptElement = document.createElement('script');
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);
+            </script>     
+
+
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Boston Celtics. All rights reserved.</p>
+    </footer>
 </body>
+
 </html>

@@ -1,3 +1,66 @@
-h1{
-   color:blue; 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
 }
+
+header {
+    background-color: rgb(0, 136, 83);
+    color: rgb(188, 154, 92);
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+    background-color: rgb(254, 252, 247); /* Adjusted the background color */
+}
+
+section {
+    margin-bottom: 40px; /* Increased the margin between sections */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Center images and text */
+.centered-div {
+    text-align: center;
+}
+
+.centered-div img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Center the graph and text below */
+.tableauPlaceholder {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#Graph p {
+    text-align: center;
+}
+
+
